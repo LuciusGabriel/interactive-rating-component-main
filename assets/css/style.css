@@ -47,6 +47,9 @@ p{
     margin-right: 15px;
     cursor: pointer;
 }
+.btn-rating:hover{
+    background-color: var(--light-grey);
+}
 .btn{
     background-color: var(--orange);
     color: var(--white);
