@@ -31,8 +31,13 @@ body{
 .inativo{
     display: none;
 }
+.staricon{
+    padding: 10px;
+    background-color: var(--dark-blue);
+    border-radius: 50%;
+}
 p{
-    font-size: 15px;
+    font-size: 1em;
     font-weight: 400;
     color: var(--light-grey);
 }
