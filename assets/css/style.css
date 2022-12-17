@@ -19,7 +19,7 @@ body{
     align-items: center;
 }
 .wrapper{
-    width: 30%;
+    width: 400px;
     background-color: var(--dark-blue);
     margin: 0 auto;
     padding: 30px;
@@ -41,6 +41,7 @@ p{
     font-size: 1em;
     font-weight: 400;
     color: var(--light-grey);
+    text-align: justify;
 }
 ul{
     list-style: none;
