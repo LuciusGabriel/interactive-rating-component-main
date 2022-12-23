@@ -20,8 +20,5 @@ btnSubmit.addEventListener('click', ()=>{
 btnRating.forEach((item)=>{
   item.addEventListener('click', ()=>{
     ratingValue = item.value
-    item.classList.toggle('rating-ativo')
-    console.log(ratingValue)
-  })
-  
+  }) 
 })

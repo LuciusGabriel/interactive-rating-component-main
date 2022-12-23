@@ -66,14 +66,16 @@ li{
     border-radius: 50%;
     margin-right: 15px;
     cursor: pointer;
-}
-.rating-ativo{
-    background-color: var(--light-grey);
-    color:var(--white);
+    transition: 0.3s;
 }
 
 .btn-rating:hover{
     background-color: var(--orange);
+    color:var(--white);
+}
+
+.btn-rating:focus{
+    background-color: var(--light-grey);
     color:var(--white);
 }
 
@@ -89,11 +91,13 @@ li{
     letter-spacing: 3px;
     margin-top: 10px;
     cursor: pointer;
+    transition: 0.3s;
 }
 .btn:hover{
     background-color: var(--white);
     color: var(--orange);
 }
+
 
 .thank-img{
     text-align: center;
