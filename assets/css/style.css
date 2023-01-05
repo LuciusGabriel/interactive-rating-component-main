@@ -43,6 +43,9 @@ p{
     color: var(--light-grey);
     text-align: justify;
 }
+.result{
+    text-align: center;
+}
 ul{
     list-style: none;
     margin-bottom: 0px;
